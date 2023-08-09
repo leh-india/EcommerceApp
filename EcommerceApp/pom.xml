@@ -7,6 +7,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>EcommerceApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <properties>    
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>    
+    <sonar.token>748a5335c1bf27b9dbcd2ecdeecb6f120543d7eb</sonar.token>    
+    <sonar.organization>chaitu-devops-exp</sonar.organization>
+    <sonar.projectKey>chaitu-devops-exp</sonar.projectKey>    
+  </properties>
+
   <dependencies>
     
      <dependency>
